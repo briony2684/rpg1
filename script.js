@@ -401,6 +401,9 @@ function manipulation(e) {
 			y = (y + dyf(d) + m) % m;
 			draw();
 			let redraw = 0;
+			if (z == 1 && x == 19 && y == 9) {
+				alert("CLEAR");
+			}
 			if (z == 1 && (x == 4 && y == 14 || x == 13 && y == 14 || x == 16 && y == 9)) {
 				x = 7;
 				y = 3;
